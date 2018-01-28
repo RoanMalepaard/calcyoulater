@@ -1,3 +1,19 @@
+// buttons 
 const $clear = document.getElementById('c');
-let RESULT  = document.getElementById('result');
-const ClearHandler = e => RESULT.innerHTML = '0';
+
+const RESULT  = document.getElementById('result');
+
+
+// handlers
+const ClearHandler = function () {
+     RESULT.innerHTML = 0;
+}
+
+
+
+
+
+
+
+//handle clicks
+$clear.onclick = ClearHandler;
