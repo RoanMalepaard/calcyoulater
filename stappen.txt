@@ -1,0 +1,8 @@
+https://www.theodinproject.com/courses/web-development-101/lessons/calculator
+
+1 maak html divjes enzo (en css)
+2 voeg js bestand aan html toe (aan einde pagina)
+3 maak functies voor optellen, aftrekken, vermedigvuldigen, delen
+4 maak functie voor uitrekenen berekening (operate)
+5 maak functie die schermpje vult als je op een getal klikt
+6 als je op = drukt moet operate worden uitgevoerd
