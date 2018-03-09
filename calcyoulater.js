@@ -71,13 +71,15 @@ for (let i = 0; i < operator.length; i++){
 
 // wat er geberut als je op = drukt
 var showResult = function() {
+	if (getal1 !== '' && getal2 !== ''){
  var resultaat = operate(op, Number(getal1), Number(getal2))//uitrekenen (operate)
- console.log(resultaat);
  displayResult.innerHTML = resultaat; //resultaat in scherm zetten
  getal1 = resultaat;
  op = undefined;
  getal2 = ''; //getal1, getal2, op terugzetten zodat je een nieuwe berekening kan maken
  newCalc = true;
+	}
+	
 }
 equals.onclick = showResult; // laat berekening zien als je op = drukt
 
